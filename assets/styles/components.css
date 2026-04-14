@@ -6,10 +6,14 @@
 
 /* semantic tags */
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     position: sticky;
     top: 0;
     width: 100%;
-    height: 4.5rem;
+    min-height: 4.5rem;
 
     background-color: #4287f5;
     color: #ffff;
@@ -61,6 +65,19 @@ footer {
 
 /* classes */
 
+.hamburguer {
+    display: none;
+    cursor: pointer;
+    width: 34px;
+}
+
+.bar {
+    flex-basis: 100%;
+    height: 4px;
+    background-color: #0d0d0d;
+    margin: 3px;
+}
+
 .section-info {
     width: 100%;
 
@@ -92,7 +109,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    flex-grow: 1;
+
     margin: 0 5rem 0 5rem;
     height: 100%;
 }
@@ -151,8 +169,22 @@ p {
 /* media query */
 
 @media screen and (max-width:1042px) {
-    nav {
+
+    header {
+        min-height: 4.5rem;
+    }
+
+    .header-wrapper {
+        flex-wrap: wrap;
+    }
+    
+    .nav-links {
         display: none;
+    }
+
+    .hamburguer {
+        display: flex;
+        flex-wrap: wrap;
     }
     
 }
