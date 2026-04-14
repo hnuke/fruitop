@@ -144,3 +144,13 @@ footer {
 p {
     text-align: justify;
 }
+
+
+/* media query */
+
+@media screen and (max-width:1042px) {
+    nav {
+        display: none;
+    }
+    
+}
