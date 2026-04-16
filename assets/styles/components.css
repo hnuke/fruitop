@@ -177,13 +177,28 @@ p {
 
     nav {
         gap: 1.1rem;
+        width: 100%;
+        margin-bottom: 1rem;
     }
 
     .header-wrapper {
         flex-wrap: wrap;
-        flex-basis: auto
+        flex-basis: auto;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        gap: 1rem;
     }
     
+    .group-inside-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
     nav, .nav-links {
         display: none;
     }
