@@ -214,4 +214,13 @@ p {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .wrapper-section-about-us {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .about-us-text-wrapper {
+        width: 80%;
+    }
 }
