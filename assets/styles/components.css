@@ -240,6 +240,12 @@ a {
 
 /* media query */
 
+@media screen and (max-width:1698px) {
+    .contact-section {
+        width: 60%;
+    }
+}
+
 @media screen and (max-width:1042px) {
 
     header {
@@ -251,7 +257,7 @@ a {
         width: 100%;
         margin-bottom: 1rem;
     }
-
+    
     .header-wrapper {
         flex-wrap: wrap;
         flex-basis: auto;
