@@ -258,6 +258,14 @@ a {
         margin-bottom: 1rem;
     }
     
+    .contact-section {
+        width: 90%;
+    }
+
+    form {
+        padding: 1rem;
+    }
+
     .header-wrapper {
         flex-wrap: wrap;
         flex-basis: auto;
