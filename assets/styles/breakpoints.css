@@ -1,0 +1,80 @@
+@media screen and (max-width:1698px) {
+    .contact-section {
+        width: 60%;
+    }
+
+    .wrapper-section-about-us {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1042px) {
+    /* GENERAL STYLES */
+    header {
+        min-height: 4.5rem;
+    }
+
+    nav {
+        gap: 1.1rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+
+    form {
+        padding: 1rem;
+    }
+    
+    /* CLASSES */
+    .contact-section {
+        width: 90%;
+    }
+
+    .header-wrapper {
+        flex-wrap: wrap;
+        flex-basis: auto;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        gap: 1rem;
+    }
+    
+    .group-inside-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .nav-links {
+        gap: 1.1rem;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .hamburguer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wrapper-section-about-us {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .about-us-text-wrapper {
+        width: 80%;
+    }
+
+    .footer-text {
+        font-size: 2.7rem;
+    }
+
+    /* CLASSES AND GENERAL STYLES*/
+    nav, .nav-links {
+        display: none;
+    }
+}
