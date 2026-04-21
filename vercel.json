@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/assets/html/index.html" }
+  ],
+  "cleanUrls": true
+}
