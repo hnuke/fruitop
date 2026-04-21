@@ -186,6 +186,12 @@ footer {
     flex-direction: column;
 }
 
+.feedback-span {
+    color: #f54260;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
 /* minor tags */
 
 form {

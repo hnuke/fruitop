@@ -69,19 +69,18 @@
                     <legend>Contact</legend>
                     <div class="flex-column">
                         <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
+                        <span class="feedback-span"></span>
                     </div>
 
                     <div class="flex-column">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name">
+                        <input type="text" id="name" name="name" required>
                     </div>
 
                     <div class="flex-column">
                         <label for="email-body">Message Body</label>
-                        <textarea id="email-body" name="email-body">
-
-                        </textarea>
+                        <textarea id="email-body" name="email-body" required></textarea>
                     </div>
                     
                     <button type="submit" class="bt-primary">Send</button>
@@ -96,6 +95,8 @@
         <span class="adviser">(this is not a real company)</span>
         <span class="link-github"><a href="https://github.com/hnuke/fruitop" target="_blank">link repo</a></span>
     </footer>
+    <script src="https://unpkg.com/validator@latest/validator.min.js"></script>    
     <script src="../scripts/navigation.js"></script>
+    <script src="../scripts/validation_contact.js"></script>
 </body>
 </html>
